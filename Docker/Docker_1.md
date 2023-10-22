@@ -21,3 +21,5 @@ also check OS date and time
 ```dockerfile
     echo "Acquire::Check-Valid-Until \"false\";\nAcquire::Check-Date \"false\";" | cat > /etc/apt/apt.conf.d/10no--check-valid-until
 ```
+
+
